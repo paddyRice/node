@@ -1,7 +1,8 @@
 const http = require('http');
 const server = http.createServer((request,response)=>{
     //获取请求方式
-    // console.log(request.method);//获取请求方式
+    // console.log('1111',response)
+    console.log(request.method);//获取请求方式
     // console.log(request.url);//获取请求地址
     // console.log(request.headers);//获取请求头
     
